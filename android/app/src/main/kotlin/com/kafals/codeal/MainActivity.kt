@@ -1,4 +1,4 @@
-package com.example.codeal
+package com.kafals.codeal
 
 import io.flutter.embedding.android.FlutterActivity
 

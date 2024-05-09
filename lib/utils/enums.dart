@@ -1,0 +1,1 @@
+enum CommissionRateTarget { product, offer }
