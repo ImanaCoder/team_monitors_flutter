@@ -122,7 +122,7 @@ class LandingPage extends StatelessWidget {
                         Navigator.push(
                             context,
                             MaterialPageRoute(
-                                builder: (context) => LandingPage()));
+                                builder: (context) => RegisterPageOne()));
                       }),
                   const SizedBox(height: 20),
 
