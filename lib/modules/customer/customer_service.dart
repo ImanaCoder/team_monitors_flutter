@@ -1,4 +1,4 @@
-import 'package:codeal/utils/http.dart';
+import 'package:team_monitor/utils/http.dart';
 
 class CustomerService {
   Future<void> addCustomer(Map<String, dynamic> data) async {

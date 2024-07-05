@@ -1,13 +1,13 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/product-offer/cubit/product_offer_cubit.dart';
-import 'package:codeal/modules/product-offer/manage_offer_page.dart';
-import 'package:codeal/shared/services/validation_service.dart';
-import 'package:codeal/shared/widgets/app_buttons.dart';
-import 'package:codeal/shared/widgets/app_form_fields.dart';
-import 'package:codeal/shared/widgets/app_header.dart';
-import 'package:codeal/shared/widgets/app_layout.dart';
-import 'package:codeal/utils/constants.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/product-offer/cubit/product_offer_cubit.dart';
+import 'package:team_monitor/modules/product-offer/manage_offer_page.dart';
+import 'package:team_monitor/shared/services/validation_service.dart';
+import 'package:team_monitor/shared/widgets/app_buttons.dart';
+import 'package:team_monitor/shared/widgets/app_form_fields.dart';
+import 'package:team_monitor/shared/widgets/app_header.dart';
+import 'package:team_monitor/shared/widgets/app_layout.dart';
+import 'package:team_monitor/utils/constants.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

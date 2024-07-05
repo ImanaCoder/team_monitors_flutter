@@ -1,14 +1,14 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/company/cubit/company_cubit.dart';
-import 'package:codeal/modules/customer/cubit/customer_cubit.dart';
-import 'package:codeal/modules/customer/manage_customer.dart';
-import 'package:codeal/modules/sales-order/cubit/sales_order_cubit.dart';
-import 'package:codeal/modules/sales-order/widgets.dart';
-import 'package:codeal/shared/widgets/app_buttons.dart';
-import 'package:codeal/shared/widgets/app_form_fields.dart';
-import 'package:codeal/shared/widgets/app_header.dart';
-import 'package:codeal/shared/widgets/app_layout.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/company/cubit/company_cubit.dart';
+import 'package:team_monitor/modules/customer/cubit/customer_cubit.dart';
+import 'package:team_monitor/modules/customer/manage_customer.dart';
+import 'package:team_monitor/modules/sales-order/cubit/sales_order_cubit.dart';
+import 'package:team_monitor/modules/sales-order/widgets.dart';
+import 'package:team_monitor/shared/widgets/app_buttons.dart';
+import 'package:team_monitor/shared/widgets/app_form_fields.dart';
+import 'package:team_monitor/shared/widgets/app_header.dart';
+import 'package:team_monitor/shared/widgets/app_layout.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

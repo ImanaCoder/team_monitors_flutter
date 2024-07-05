@@ -1,6 +1,6 @@
 import 'dart:math';
-import 'package:codeal/core/token_info.dart';
-import 'package:codeal/utils/http.dart';
+import 'package:team_monitor/core/token_info.dart';
+import 'package:team_monitor/utils/http.dart';
 
 class UserService {
   Future<void> forgotPassword(String userName) async {

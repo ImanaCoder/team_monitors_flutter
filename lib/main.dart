@@ -1,5 +1,5 @@
-import 'package:codeal/core/navigation_service.dart';
-import 'package:codeal/utils/routes.dart';
+import 'package:team_monitor/core/navigation_service.dart';
+import 'package:team_monitor/utils/routes.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 

@@ -1,6 +1,6 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/product-offer/models.dart';
-import 'package:codeal/modules/product-offer/offer_service.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/product-offer/models.dart';
+import 'package:team_monitor/modules/product-offer/offer_service.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 

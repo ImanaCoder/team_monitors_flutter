@@ -1,12 +1,12 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/core/token_info.dart';
-import 'package:codeal/modules/company/add_company.dart';
-import 'package:codeal/modules/sales-order/manage_sales_order.dart';
-import 'package:codeal/modules/user/auth/pages/login_page.dart';
-import 'package:codeal/modules/user/home/pages/admin_dashboard.dart';
-import 'package:codeal/modules/user/home/pages/coseller_dashboard.dart';
-import 'package:codeal/modules/user/home/pages/landing_page.dart';
-import 'package:codeal/modules/user/home/pages/super_admin_dashboard.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/core/token_info.dart';
+import 'package:team_monitor/modules/company/add_company.dart';
+import 'package:team_monitor/modules/sales-order/manage_sales_order.dart';
+import 'package:team_monitor/modules/user/auth/pages/login_page.dart';
+import 'package:team_monitor/modules/user/home/pages/admin_dashboard.dart';
+import 'package:team_monitor/modules/user/home/pages/coseller_dashboard.dart';
+import 'package:team_monitor/modules/user/home/pages/landing_page.dart';
+import 'package:team_monitor/modules/user/home/pages/super_admin_dashboard.dart';
 import 'package:flutter/material.dart';
 
 class RouteGenerator {
@@ -16,7 +16,7 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const AutoLoginScreen());
 
       case '/landing-page':
-        return MaterialPageRoute(builder: (_) => const LandingPage());
+        return MaterialPageRoute(builder: (_) =>  LandingPage());
 
       case '/users/login':
         return MaterialPageRoute(builder: (_) => LoginPage());
@@ -38,7 +38,7 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => ManageSalesOrder());
 
       default:
-        throw const FormatException("Route not ofund");
+        throw const FormatException("Route not found");
     }
   }
 }

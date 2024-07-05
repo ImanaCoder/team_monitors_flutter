@@ -1,9 +1,9 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/user/cubit/user_cubit.dart';
-import 'package:codeal/shared/services/validation_service.dart';
-import 'package:codeal/shared/widgets/app_buttons.dart';
-import 'package:codeal/shared/widgets/app_form_fields.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/user/cubit/user_cubit.dart';
+import 'package:team_monitor/shared/services/validation_service.dart';
+import 'package:team_monitor/shared/widgets/app_buttons.dart';
+import 'package:team_monitor/shared/widgets/app_form_fields.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

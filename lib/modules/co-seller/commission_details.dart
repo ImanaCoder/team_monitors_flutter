@@ -1,6 +1,6 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/co-seller/cubit/coseller_cubit.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/co-seller/cubit/coseller_cubit.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

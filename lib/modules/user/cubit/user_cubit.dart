@@ -1,8 +1,8 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/user/service/user_service.dart';
-import 'package:codeal/shared/services/sms_service.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/user/service/user_service.dart';
+import 'package:team_monitor/shared/services/sms_service.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:codeal/core/token_info.dart';
+import 'package:team_monitor/core/token_info.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 

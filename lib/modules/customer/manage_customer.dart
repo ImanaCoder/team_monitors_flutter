@@ -1,9 +1,9 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/customer/cubit/customer_cubit.dart';
-import 'package:codeal/shared/models/address.dart';
-import 'package:codeal/shared/widgets/address_box.dart';
-import 'package:codeal/shared/widgets/app_buttons.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/customer/cubit/customer_cubit.dart';
+import 'package:team_monitor/shared/models/address.dart';
+import 'package:team_monitor/shared/widgets/address_box.dart';
+import 'package:team_monitor/shared/widgets/app_buttons.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

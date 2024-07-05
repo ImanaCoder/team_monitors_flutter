@@ -1,5 +1,5 @@
-import 'package:codeal/core/navigation_service.dart';
-import 'package:codeal/core/service_locator.dart';
+import 'package:team_monitor/core/navigation_service.dart';
+import 'package:team_monitor/core/service_locator.dart';
 import 'package:dio/dio.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 

@@ -1,5 +1,6 @@
 import 'package:dropdown_search/dropdown_search.dart';
 import 'package:flutter/material.dart';
+import 'package:team_monitor/helpers/color_extension.dart';
 
 class AppFormField extends StatelessWidget {
   final TextEditingController? controller;
@@ -30,11 +31,6 @@ class AppFormField extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 5),
       child: TextFormField(
-        decoration: InputDecoration(
-          border: const OutlineInputBorder(),
-          label: Text(label),
-          contentPadding: const EdgeInsets.only(left: 5),
-        ),
         maxLines: maxLines,
         readOnly: readOnly,
         controller: controller,
@@ -43,6 +39,22 @@ class AppFormField extends StatelessWidget {
         keyboardType: keyboardType,
         textInputAction: textInputAction,
         onSaved: onSaved,
+        decoration: InputDecoration(
+          label: Text(label),
+          contentPadding: const EdgeInsets.all(15),
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: TeamMonitorColor.borderColor),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          focusedErrorBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: TeamMonitorColor.primaryColor1),
+            borderRadius: BorderRadius.circular(20),
+          ),
+        ),
+        style: TextStyle(
+            color: TeamMonitorColor.blackColor,
+            fontWeight: FontWeight.bold,
+            fontSize: 14),
       ),
     );
   }
@@ -59,7 +71,8 @@ class AppPasswordField extends StatefulWidget {
 class _AppPasswordFieldState extends State<AppPasswordField> {
   bool obscurePassword = true;
   Icon visible = const Icon(Icons.visibility, color: Colors.black, size: 20);
-  Icon nonVisible = const Icon(Icons.visibility_off, color: Colors.black, size: 20);
+  Icon nonVisible =
+      const Icon(Icons.visibility_off, color: Colors.black, size: 20);
 
   Widget toggleButton() {
     return IconButton(
@@ -74,16 +87,27 @@ class _AppPasswordFieldState extends State<AppPasswordField> {
       // height: 25,
       child: TextFormField(
         controller: widget.passController,
-        decoration: InputDecoration(
-          border: const OutlineInputBorder(),
-          labelText: "Password",
-          hintStyle: const TextStyle(color: Color.fromARGB(255, 193, 168, 217)),
-          suffixIcon: toggleButton(),
-          contentPadding: const EdgeInsets.only(left: 5),
-        ),
+
         obscureText: obscurePassword,
         // validator: ValidationService.validateNonEmptiness,//TODO
         keyboardType: TextInputType.text,
+        decoration: InputDecoration(
+          labelText: "Password",
+          suffixIcon: toggleButton(),
+          contentPadding: const EdgeInsets.all(15),
+          enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: TeamMonitorColor.borderColor),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          focusedErrorBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: TeamMonitorColor.primaryColor1),
+            borderRadius: BorderRadius.circular(20),
+          ),
+        ),
+        style: TextStyle(
+            color: TeamMonitorColor.blackColor,
+            fontWeight: FontWeight.bold,
+            fontSize: 14),
       ),
     );
   }
@@ -159,13 +183,16 @@ class AppSearchableDropdown extends StatelessWidget {
         ),
         items: items,
         itemAsString: (item) => item[keyString],
-        filterFn: (item, filter) => item[keyString].toLowerCase().startsWith(filter.toLowerCase()),
+        filterFn: (item, filter) =>
+            item[keyString].toLowerCase().startsWith(filter.toLowerCase()),
         dropdownDecoratorProps: DropDownDecoratorProps(
           dropdownSearchDecoration: InputDecoration(
             border: const OutlineInputBorder(),
             labelText: labelText,
-            prefixIcon: const Icon(Icons.search, color: Color(0xFF171717), size: 18),
-            contentPadding: const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
+            prefixIcon:
+                const Icon(Icons.search, color: Color(0xFF171717), size: 18),
+            contentPadding:
+                const EdgeInsets.symmetric(horizontal: 5, vertical: 1),
           ),
         ),
         onChanged: onChanged,
@@ -192,7 +219,8 @@ class AppSwichInput extends StatefulWidget {
 }
 
 class _AppSwichInputState extends State<AppSwichInput> {
-  Widget title(String text) => Text(text, style: const TextStyle(color: Color(0xFF2D3B8A)));
+  Widget title(String text) =>
+      Text(text, style: const TextStyle(color: Color(0xFF2D3B8A)));
   Widget switchInput() => Container(
         height: 16,
         width: 16,

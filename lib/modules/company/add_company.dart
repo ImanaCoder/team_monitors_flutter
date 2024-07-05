@@ -1,10 +1,10 @@
-import 'package:codeal/core/navigation_service.dart';
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/company/cubit/company_cubit.dart';
-import 'package:codeal/shared/services/validation_service.dart';
-import 'package:codeal/shared/widgets/app_header.dart';
-import 'package:codeal/shared/widgets/app_layout.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/navigation_service.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/company/cubit/company_cubit.dart';
+import 'package:team_monitor/shared/services/validation_service.dart';
+import 'package:team_monitor/shared/widgets/app_header.dart';
+import 'package:team_monitor/shared/widgets/app_layout.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

@@ -1,4 +1,4 @@
-import 'package:codeal/shared/widgets/app_layout.dart';
+import 'package:team_monitor/shared/widgets/app_layout.dart';
 import 'package:flutter/material.dart';
 
 import '../../auth/widgets/confirm_exit.dart';

@@ -1,8 +1,8 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/core/token_info.dart';
-import 'package:codeal/modules/product/manage_product_page.dart';
-import 'package:codeal/modules/user/home/pages/sidebar.dart';
-import 'package:codeal/utils/constants.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/core/token_info.dart';
+import 'package:team_monitor/modules/product/manage_product_page.dart';
+import 'package:team_monitor/modules/user/home/pages/sidebar.dart';
+import 'package:team_monitor/utils/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 

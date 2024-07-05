@@ -1,5 +1,5 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/utils/constants.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/utils/constants.dart';
 import 'package:flutter/material.dart';
 
 class AppButton extends StatelessWidget {

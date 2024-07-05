@@ -1,8 +1,8 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/company/cubit/company_cubit.dart';
-import 'package:codeal/modules/sales-order/sales_order_list_for_dashboard.dart';
-import 'package:codeal/shared/widgets/app_layout.dart';
-import 'package:codeal/utils/display_toast.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/company/cubit/company_cubit.dart';
+import 'package:team_monitor/modules/sales-order/sales_order_list_for_dashboard.dart';
+import 'package:team_monitor/shared/widgets/app_layout.dart';
+import 'package:team_monitor/utils/display_toast.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../auth/widgets/confirm_exit.dart';

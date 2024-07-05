@@ -1,5 +1,5 @@
-import 'package:codeal/core/service_locator.dart';
-import 'package:codeal/modules/co-seller/coseller_service.dart';
+import 'package:team_monitor/core/service_locator.dart';
+import 'package:team_monitor/modules/co-seller/coseller_service.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 
